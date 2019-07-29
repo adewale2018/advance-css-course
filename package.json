@@ -1,0 +1,22 @@
+{
+  "name": "advance-css-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adewale2018/advance-css-course.git"
+  },
+  "author": "Saheed Adewale Shittu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adewale2018/advance-css-course/issues"
+  },
+  "homepage": "https://github.com/adewale2018/advance-css-course#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
