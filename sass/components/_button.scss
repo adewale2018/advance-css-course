@@ -41,7 +41,7 @@
       -moz-transform: translateY(-.1rem);
       -ms-transform: translateY(-.1rem);
       -o-transform: translateY(-.1rem);
-  }
+    }
   &--white {
   background-color: $color-white;
   color: $color-gray-dark;
@@ -83,6 +83,7 @@
   -webkit-animation: moveInBottom 0.5s ease-out 0.75s;
   }
 }
+}
 
 .btn-text {
   &:link,
@@ -98,7 +99,7 @@
     -moz-transition: all .2s;
     -ms-transition: all .2s;
     -o-transition: all .2s;
-}
+  }
   &:hover {
     background-color: $color-primary;
     color: $color-white;
@@ -117,5 +118,4 @@
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
   }
-}
 }
